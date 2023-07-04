@@ -33,14 +33,7 @@ body {
     object-fit: cover;
 }
 
-/* .swiper-button-next {
-    right: 20px !important; /* Change this value */
-    /* bottom: 50% !important;
-    transform: translateY(50%) !important;
-  } */
-  
-  /* .swiper-button-prev { */
-    /* left: 20px !important; /* Change this value */
-    /* bottom: 50% !important;
-    transform: translateY(50%) !important;
-  } */ 
+.btn-outline-primary {
+    background-color: #07565B !important;
+    color: #ffffff;
+}

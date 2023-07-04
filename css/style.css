@@ -1,4 +1,14 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(/vazir-font-v16.1.0/Vazir.eot);
+
+    src: url(/vazir-font-v16.1.0/Vazir.woff2) format("woff2");
+}
+
+
+
 body {
+    font-family: "Vazir" !important;
     position: relative;
     height: 100%;
 }
@@ -37,3 +47,83 @@ body {
     background-color: #07565B !important;
     color: #ffffff;
 }
+
+@media  (min-width:1400px) {
+ .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev' !important;
+    position: absolute;
+    top: 178px;
+    left: 575px;
+    font-size: 33px;
+}
+.swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+    content: "next" !important;
+    position: absolute;
+    left: -565px;
+    top: 179px;
+}   
+
+}
+@media screen and (max-width:1400px) {
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        content: 'prev' !important;
+        position: absolute;
+        top: 160px;
+        left: 476px;
+        font-size: 33px;
+    }
+    .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+        content: "next" !important;
+        position: absolute;
+        left: -464px;
+        top: 161px;
+        font-size: 33px;
+    }   
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        content: 'prev' !important;
+        position: absolute;
+        top: 140px;
+        left: 378px;
+        font-size: 33px;
+    }
+    .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+        content: "next" !important;
+        position: absolute;
+        left: -368px;
+        top: 142px;
+        font-size: 33px;
+    }       
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        content: 'prev' !important;
+        position: absolute;
+        top: 113px;
+        left: 261px;
+        font-size: 33px;
+    }
+    .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+        content: "next" !important;
+        position: absolute;
+        left: -257px;
+        top: 115px;
+        font-size: 33px;
+    }       
+}
+
+@media screen and (max-width:800px) {
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        display: none;
+    }
+    .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+        display: none;
+    }     
+}
+
+/* @media screen and (max-width:800) {
+    
+} */
